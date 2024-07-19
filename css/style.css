@@ -12,6 +12,10 @@
     margin: 0 auto;
 }
 
+.flex {
+    display: flex;
+}
+
 /*generals*/
 
 body {
@@ -20,7 +24,31 @@ body {
 
 main {
     height: calc(100vh - 100px);
+}
+
+/* # sidebar*/
+
+#sidebar {
+    background-color: black;
+    width: 300px;
+    height: calc(100vh - 100px);
+}
+
+/* # home */
+
+#home {
     overflow: auto;
+    color: white;
+    background-color: #141922;
+    width: 100vw;
+}
+
+.home-header {
+    background-color: rgba(8, 11, 18, 0.5);
+    position: sticky;
+    top: 0;
+    left: 0;
+    height: 100px;
 }
 
 /* # footer */
