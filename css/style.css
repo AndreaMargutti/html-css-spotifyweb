@@ -43,6 +43,8 @@ main {
     width: 100vw;
 }
 
+/*home header*/
+
 .home-header {
     background-color: rgba(8, 11, 18, 0.5);
     position: sticky;
