@@ -17,3 +17,15 @@
 body {
     font-family: 'Montserrat' sans-serif;
 }
+
+main {
+    height: calc(100vh - 100px);
+    overflow: auto;
+}
+
+/* # footer */
+
+footer {
+    height: 100px;
+    background-color: #282828;
+}
