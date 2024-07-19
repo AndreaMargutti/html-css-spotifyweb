@@ -30,7 +30,7 @@ main {
 
 #sidebar {
     background-color: black;
-    width: 300px;
+    width: 50px;
     height: calc(100vh - 100px);
 }
 
@@ -58,4 +58,12 @@ main {
 footer {
     height: 100px;
     background-color: #282828;
+}
+
+/* # responsive */
+
+@media screen and (min-width:639px) {
+    #sidebar {
+        width: 300px;
+    }
 }
