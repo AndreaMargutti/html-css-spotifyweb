@@ -5,23 +5,30 @@
     box-sizing: border-box;
 }
 
-/*utilities*/
+/* # utilities*/
 
 .container {
     max-width: 1080px;
     margin: 0 auto;
 }
 
+/*flex*/
+
 .flex {
     display: flex;
 }
 
-img {
-    width: 100%;
-    display: block;
+.column {
+    flex-direction: column;
 }
 
-/*generals*/
+/*txt*/
+
+.txt-white {
+    color: white;
+}
+
+/* # generals*/
 
 body {
     font-family: 'Montserrat' sans-serif;
@@ -71,6 +78,15 @@ footer div {
 
     flex-basis: calc(100% / 3);
     justify-content: space-between;
+}
+
+.song-played {
+    align-items: center;
+    justify-content: flex-start;
+}
+
+footer img {
+    width: 58px;
 }
 
 /* # responsive */
