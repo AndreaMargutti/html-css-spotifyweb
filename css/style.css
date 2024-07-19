@@ -32,6 +32,18 @@
     color: white;
 }
 
+/*border*/
+
+.bd-white {
+border: 3px solid white;
+width: 50px;
+}
+
+.bd-gray {
+border: 3px solid gray;
+width: 70px;
+}
+
 /* # generals*/
 
 body {
@@ -74,14 +86,15 @@ main {
 footer {
     height: 100px;
     background-color: #282828;
-    align-items: center;
 }
 
-footer div {
+footer > div {
     border: 3px dashed white;
 
     flex-basis: calc(100% / 3);
     justify-content: space-between;
+    align-items: center;
+    padding: 20px;
 }
 
 .song-played {
