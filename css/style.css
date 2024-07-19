@@ -74,6 +74,7 @@ main {
 footer {
     height: 100px;
     background-color: #282828;
+    align-items: center;
 }
 
 footer div {
@@ -84,18 +85,18 @@ footer div {
 }
 
 .song-played {
-    align-items: center;
     justify-content: flex-start;
     gap: 10px;
     padding: 20px;
 }
 
-.song-played i:first-child {
-    margin-bottom: 10px;
-}
-
 footer img {
     width: 58px;
+}
+
+.volume {
+    gap: 10px;
+    justify-content: flex-start;
 }
 
 /* # responsive */
