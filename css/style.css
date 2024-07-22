@@ -39,14 +39,22 @@
     width: 30px;
 }
 
+.bd-gray {
+    border: 3px solid gray;
+    width: 50px;
+}
+
 .small {
     align-self: center;
     height: 1px;
 }
 
-.bd-gray {
-    border: 3px solid gray;
-    width: 50px;
+/*buttons*/
+
+.btn-big {
+    padding: 10px 15px;
+    border: 1px solid white;
+    border-radius: 25px;
 }
 
 /* # generals*/
@@ -57,6 +65,10 @@ body {
 
 main {
     height: calc(100vh - 100px);
+}
+
+a {
+    text-decoration: none;
 }
 
 /* # sidebar*/
@@ -84,6 +96,9 @@ main {
     top: 0;
     left: 0;
     height: 100px;
+    text-align: end;
+    line-height: 90px;
+    padding-right: 5px;
 }
 
 /* # footer */
