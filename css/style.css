@@ -310,4 +310,16 @@ footer img {
     .col {
         flex-basis: calc(100% / 6 - 100px / 6);
     }
+
+    /*barra di riproduzione*/
+
+   .rip-bar hr {
+        width: 170px;
+    }
+
+    /*barra del volume*/
+
+    .volume hr {
+        width: 90px;
+    }
 }
