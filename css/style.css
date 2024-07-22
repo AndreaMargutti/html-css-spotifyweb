@@ -66,6 +66,10 @@ a {
     text-decoration: none;
 }
 
+h2 {
+    margin-bottom: 20px;
+}
+
 h3 {
     font-size: 33px;
     margin-bottom: 10px;
@@ -77,6 +81,11 @@ ul {
 
 nav {
     margin-bottom: 40px;
+}
+
+img {
+    width: 100%;
+    display: block;
 }
 
 /* # sidebar*/
@@ -104,7 +113,7 @@ img[alt="logo"] {
 }
 
 li > img {
-    height: 60px;
+    width: 60px;
     margin-bottom: 10px;
 }
 
@@ -177,6 +186,18 @@ li > span {
 
 .row {
     display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    min-height: 150px;
+}
+
+.col {
+    flex-basis: calc(100% / 2 - 20px / 2);
+    border: 2px solid white;
+}
+
+figure {
+    text-align: center;
 }
 
 /* # footer */
@@ -273,5 +294,17 @@ footer img {
 
     .volume {
         justify-content: flex-end;
+    }
+
+    .col {
+        flex-basis: calc(100% / 4 - 80px / 4);
+    }
+}
+
+/*desktop*/
+
+@media screen and (min-width: 1080px) {
+    .col {
+        flex-basis: calc(100% / 6 - 100px / 6);
     }
 }
