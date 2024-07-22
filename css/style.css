@@ -193,7 +193,6 @@ li > span {
 
 .col {
     flex-basis: calc(100% / 2 - 20px / 2);
-    border: 2px solid white;
 }
 
 figure {
