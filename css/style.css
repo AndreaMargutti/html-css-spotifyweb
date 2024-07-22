@@ -7,11 +7,6 @@
 
 /* # utilities*/
 
-.container {
-    max-width: 1080px;
-    margin: 0 auto;
-}
-
 /*flex*/
 
 .flex {
@@ -79,6 +74,15 @@ a {
     height: calc(100vh - 100px);
 }
 
+img[alt="logo"] {
+    display: none;
+}
+
+.logos > * {
+    margin-top: 10px;
+    padding: 10px;
+}
+
 /* # home */
 
 #home {
@@ -109,8 +113,6 @@ footer {
 }
 
 footer > div {
-    border: 3px dashed white;
-
     flex-basis: calc(100% / 3);
     justify-content: space-between;
     align-items: center;
@@ -164,6 +166,14 @@ footer img {
 @media screen and (min-width: 639px) {
     #sidebar {
         width: 300px;
+    }
+
+    img[alt="logo-small"] {
+        display: none;
+    }
+
+    img[alt="logo"] {
+        display: inline-block;
     }
 }
 
