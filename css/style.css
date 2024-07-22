@@ -35,13 +35,18 @@
 /*border*/
 
 .bd-white {
-border: 3px solid white;
-width: 50px;
+    border: 3px solid white;
+    width: 50px;
+}
+
+.small {
+    align-self: center;
+    height: 1px;
 }
 
 .bd-gray {
-border: 3px solid gray;
-width: 70px;
+    border: 3px solid gray;
+    width: 70px;
 }
 
 /* # generals*/
@@ -112,14 +117,60 @@ footer img {
     justify-content: flex-start;
 }
 
-.rip-bar > * {
+.rip-bar {
     text-align: center;
+}
+
+.rip-icons > * {
+    font-size: 1.3rem;
+    margin-right: 10px;
+}
+
+.rip-bar > div:last-child {
+    gap: 10px;
 }
 
 /* # responsive */
 
-@media screen and (min-width:639px) {
+/*xs*/
+@media screen and (max-width: 576px) {
+    .volume,
+    .song-played {
+        display: none;
+    }
+    
+    .rip-bar {
+        flex-basis: 100%;
+    }
+}
+
+/*small*/
+
+@media screen and (min-width: 639px) {
     #sidebar {
         width: 300px;
     }
+}
+
+/*medium*/
+
+@media screen and (min-width: 870px) {
+    .song-played {
+        justify-content: space-between;
+    }
+
+    .song-played > div:last-child {
+        margin-left: auto;
+        display: inline;
+    }
+
+    .volume {
+        justify-content: flex-end;
+    }
+}
+
+/*desktop*/
+
+@media screen and (min-width:1100px) {
+    
 }
