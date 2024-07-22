@@ -188,7 +188,7 @@ li > span {
     display: flex;
     gap: 10px;
     flex-wrap: wrap;
-    min-height: 150px;
+    margin-bottom: 30px;
 }
 
 .col {
@@ -198,6 +198,10 @@ li > span {
 
 figure {
     text-align: center;
+}
+
+.sub-title {
+    margin-bottom: 20px;
 }
 
 /* # footer */
