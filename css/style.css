@@ -66,6 +66,10 @@ a {
     text-decoration: none;
 }
 
+h3 {
+    font-size: 33px;
+}
+
 /* # sidebar*/
 
 #sidebar {
@@ -98,7 +102,10 @@ li > img {
 li > span {
     display: none;
     font-size: 1.5rem;
-    
+}
+
+#playlist {
+    display: none;
 }
 
 /* # home */
@@ -196,6 +203,10 @@ footer img {
 
     li > span {
         display: inline;
+    }
+
+    #playlist {
+        display: block;
     }
 }
 
