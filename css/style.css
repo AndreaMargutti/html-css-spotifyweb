@@ -134,6 +134,10 @@ li > span {
 
 /* # home */
 
+.content {
+    padding: 20px;
+}
+
 #home {
     overflow: auto;
     color: white;
@@ -161,11 +165,18 @@ li > span {
     justify-content: space-around;
     gap: 20px;
     flex-wrap: wrap;
+    text-align: center;
 }
 
 .home-navbar li {
     white-space: pre;
     flex-basis: calc(100% / 6 - 100px / 6);
+}
+
+/*home main content*/
+
+.row {
+    display: flex;
 }
 
 /* # footer */
