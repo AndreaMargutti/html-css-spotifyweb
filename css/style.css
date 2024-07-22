@@ -36,7 +36,7 @@
 
 .bd-white {
     border: 3px solid white;
-    width: 50px;
+    width: 30px;
 }
 
 .small {
@@ -46,7 +46,7 @@
 
 .bd-gray {
     border: 3px solid gray;
-    width: 70px;
+    width: 50px;
 }
 
 /* # generals*/
@@ -133,7 +133,7 @@ footer img {
 /* # responsive */
 
 /*xs*/
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 586px) {
     .volume,
     .song-played {
         display: none;
