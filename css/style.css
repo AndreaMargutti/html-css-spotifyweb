@@ -113,13 +113,13 @@ img[alt="logo"] {
 }
 
 li > img {
-    width: 60px;
+    width: 40px;
     margin-bottom: 10px;
 }
 
 li > span {
     display: none;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
 }
 
 #playlist {
@@ -138,6 +138,41 @@ li > span {
 
 #playlist li {
     margin-bottom: 15px;
+}
+
+.list-footer {
+    padding: 10px;
+    position: fixed;
+    bottom: 100px;
+    left: 0;
+}
+
+.install {
+    margin-bottom: 10px;
+    text-align: center;
+    border-bottom: 1px solid #565656;
+}
+
+.install img {
+    width: 20px;
+}
+
+.install span {
+    margin-left: 5px;
+    display: none;
+}
+
+.profile {
+    line-height: 35px;
+}
+
+.profile img {
+    width: 30px;
+}
+
+.profile span {
+    margin-left: 5px;
+    display: none;
 }
 
 
@@ -280,6 +315,14 @@ footer img {
 
     #playlist {
         display: block;
+    }
+
+    .install span {
+        display: inline-block;
+    }
+
+    .profile span {
+        display: inline-block;
     }
 }
 
