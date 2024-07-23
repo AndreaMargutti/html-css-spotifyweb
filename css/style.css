@@ -142,7 +142,7 @@ li > span {
 
 .list-footer {
     padding: 10px;
-    position: fixed;
+    position: absolute;
     bottom: 100px;
     left: 0;
 }
@@ -150,7 +150,6 @@ li > span {
 .install {
     margin-bottom: 10px;
     text-align: center;
-    border-bottom: 1px solid #565656;
 }
 
 .install img {
@@ -175,6 +174,11 @@ li > span {
     display: none;
 }
 
+.list-footer hr {
+    display: none;
+    border: 1px solid #565656;
+    margin-bottom: 10px;
+}
 
 /* # home */
 
@@ -302,6 +306,7 @@ footer img {
 @media screen and (min-width: 639px) {
     #sidebar {
         width: 300px;
+        position: relative;
     }
 
     img[alt="logo-small"] {
@@ -320,12 +325,22 @@ footer img {
         display: block;
     }
 
+    .list-footer {
+        bottom: 0;
+        left: 0;
+        right: 0;
+    }
+
     .install span {
         display: inline-block;
     }
 
     .profile span {
         display: inline-block;
+    }
+
+    .list-footer hr {
+        display: block;
     }
 }
 
