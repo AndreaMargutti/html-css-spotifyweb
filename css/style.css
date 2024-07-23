@@ -150,6 +150,7 @@ li > span {
 .install {
     margin-bottom: 10px;
     text-align: center;
+    justify-content: center;
 }
 
 .install img {
@@ -167,6 +168,8 @@ li > span {
 
 .profile img {
     width: 30px;
+    background-color: #7E7E7E;
+    border-radius: 40%;
 }
 
 .profile span {
@@ -210,13 +213,14 @@ li > span {
 
 .home-navbar {
     font-size: 18px;
-    justify-content: space-around;
+    justify-content: space-between;
     gap: 10px;
     flex-wrap: wrap;
     text-align: center;
 }
 
 .home-navbar li {
+    font-weight: 700;
     white-space: pre;
     flex-basis: calc(100% / 6 - 100px / 6);
 }
@@ -331,6 +335,10 @@ footer img {
         right: 0;
     }
 
+    .install {
+        justify-content: flex-start;
+    }
+
     .install span {
         display: inline-block;
     }
@@ -371,7 +379,11 @@ footer img {
 
     .home-navbar {
         justify-content: center;
-        gap: 0;
+        gap: 30px;
+    }
+
+    .home-navbar li {
+        flex-basis: auto;
     }
 
     .col {
